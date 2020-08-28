@@ -27,7 +27,7 @@
     <AddTodo :arrtodo="arrtodo"/>
     <TodoList 
       :arrtodo="arrtodo"
-      :done = "done"
+      @done = "done"
     />
   </div>
 </template>

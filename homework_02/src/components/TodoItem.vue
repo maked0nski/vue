@@ -24,8 +24,8 @@ export default {
         }
     },
     methods: {
-        done() {
-            this.$emit('done')
+        done(index) {
+            console.log('todo item ' + index);
         }
     },
 }
