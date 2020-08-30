@@ -13,7 +13,7 @@ import VueResource from 'vue-resource';
 Vue.use(VueResource);
 ```
 
-## Example
+### Example
 ```js
 {
   // GET /someUrl
@@ -28,11 +28,11 @@ Vue.use(VueResource);
 }
 ```
 
-#Vue Router
+# Vue Router
 
 Создавать одностраничные приложения (SPA) используя Vue + Vue Router без перезагрузки страницы
 
-##Install
+## Install
 
 ```js
 npm install vue-router
