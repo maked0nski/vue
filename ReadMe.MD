@@ -2,7 +2,7 @@
 The HTTP client for Vue.js
 The plugin for Vue.js provides services for making web requests and handle responses using a XMLHttpRequest or JSONP.
 
-##Installation
+## Installation
 
 `$ npm install vue-resource`
 
