@@ -29,6 +29,7 @@ Vue.use(VueResource);
 ```
 
 #Vue Router
+
 Создавать одностраничные приложения (SPA) используя Vue + Vue Router без перезагрузки страницы
 
 ##Install
@@ -62,7 +63,7 @@ new Vue({
  
 В файле routes.js подключить все наши роуты:
 
-##### Example
+### Example
 ```js
 export const route = [
     {
@@ -75,7 +76,7 @@ export const route = [
 ```
 
 Не забути в файлі App.vue додати <router-view/>
-######Наприклад
+### Наприклад
 ```js
 <template>
   <div>
