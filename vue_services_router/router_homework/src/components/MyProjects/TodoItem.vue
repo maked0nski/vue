@@ -26,6 +26,7 @@
         methods: {
             done(index) {
                 console.log('todo item ' + index);
+                this.$emit('done', index)
             }
         },
     }
