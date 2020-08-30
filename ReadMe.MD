@@ -75,7 +75,7 @@ export const route = [
 ]
 ```
 
-Не забути в файлі App.vue додати <router-view/>
+Не забути в файлі App.vue додати "<router-view/>"
 ### Наприклад
 ```js
 <template>
