@@ -86,3 +86,24 @@ export const route = [
   </div>
 </template>
 ```
+
+# Vuex
+
+Vuex — паттерн управления состоянием + библиотека для приложений на Vue. js. Он служит централизованным хранилищем данных для всех компонентов приложения с правилами, гарантирующими, что состояние может быть изменено только предсказуемым образом
+
+Install
+```js
+npm i vuex
+```
+
+В src створюємо папку store та файл в ній store.js
+в ньому імпортуємо 
+```js
+import Vue from 'vue';
+import Vuex from 'vuex';
+Vue.use(Vuex);
+
+export const store = new Vuex.Store({
+
+})
+```
